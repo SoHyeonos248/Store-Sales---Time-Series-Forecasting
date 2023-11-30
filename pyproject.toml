@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "edaenv"
+version = "0.1.0"
+description = "Made environment for EDA practices"
+authors = ["y"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.1"
+notebook = "^7.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
