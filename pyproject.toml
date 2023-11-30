@@ -6,9 +6,10 @@ authors = ["y"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.11"
 numpy = "^1.21.1"
 notebook = "^7.0.6"
+pandas = "^2.1.3"
 
 [build-system]
 requires = ["poetry-core"]
